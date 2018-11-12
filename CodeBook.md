@@ -87,10 +87,10 @@ frequencyBodyAccelerationMagnitudeStd
 frequencyBodyAccelerationMagnitudeMeanFrequency        
 frequencyBodyBodyAccelerationJerkMagnitudeMean         
 frequencyBodyBodyAccelerationJerkMagnitudeStd          
-frequencyBodyBodyAccelerationJerkMagnitudeMeanFrequency
+frequencyBodyBodyAccelerationJerkMagnitudeMeanFrequency  
 frequencyBodyBodyGyroscopeMagnitudeMean                
 frequencyBodyBodyGyroscopeMagnitudeStd                 
 frequencyBodyBodyGyroscopeMagnitudeMeanFrequency       
 frequencyBodyBodyGyroscopeJerkMagnitudeMean            
 frequencyBodyBodyGyroscopeJerkMagnitudeStd             
-frequencyBodyBodyGyroscopeJerkMagnitudeMeanFrequency 
+frequencyBodyBodyGyroscopeJerkMagnitudeMeanFrequency  
