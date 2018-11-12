@@ -1,9 +1,9 @@
-This file contains a list of data in tidy.txt
+This file contains a list of data names and units in tidy.txt. The data was not modified, only the Headings expanded for easier. Averaged data per subject can be found in the variable tidy_data_mean.  
 
 ## Identifiers  
 subject                                         
 activity  
-### Activities                                       
+### Activity Labels                                       
 WALKING  
 WALKING_UPSTAIRS  
 WALKING_DOWNSTAIRS  
