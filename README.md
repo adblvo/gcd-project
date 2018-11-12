@@ -1,14 +1,14 @@
 # gcd-project
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.  
 
-Review criterialess 
+### Review criteria  
 The submitted data set is tidy.txt
 The Github repo contains the required script run_analysis.R.
 GitHub contains a CodeBook.md that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 The README.md that explains the analysis files is clear and understandable.
 The work submitted for this project is the work of the student who submitted it.
 
-### Getting and Cleaning Data Course Projectless 
+### Getting and Cleaning Data Course Project  
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit:  
 1) a tidy data set as described below,  
 2) a link to a Github repository with your script for performing the analysis, and  
