@@ -3,7 +3,7 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 ### Review criteria  
 The submitted data set is tidy.txt
-The Github repo contains the required script run_analysis.R.
+The Github repo contains the required script run_analysis.R. This file extracts mean and std data from dataset, creates tidy.txt, and a second dataset with means for each subject/activity combination.
 GitHub contains a CodeBook.md that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 The README.md that explains the analysis files is clear and understandable.
 The work submitted for this project is the work of the student who submitted it.
