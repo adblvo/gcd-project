@@ -1,6 +1,6 @@
 # method requires files to be downloaded and upzipped to 
 # ./UCI HAR Dataset/
-
+library(reshape2)
 folder <- "UCI HAR Dataset"
 if (file.exists(folder)){
     
@@ -39,7 +39,8 @@ if (file.exists(folder)){
     tidy_data$subject <- as.factor(tidy_data$subject)
     tidy_data$activity <- factor(tidy_data$activity, level = activity_labels[,1], labels = activity_labels[,2])
     tidy_data_melt <- melt(tidy_data, id = c("subject", "activity"))
-    tidy_data_mean <- dcast(tidy_data_mel, subject + activity ~ variable, mean)
+    tidy_data_mean <- dcast(tidy_data_melt, subject + activity ~ variable, mean)
     
-    write.table(tidy_data, "/tidy.txt", row.names = FALSE, quote = FALSE)
-}
+    write.table(tidy_data, "tidy.txt", row.names = FALSE, quote = FALSE)
+
+    }
