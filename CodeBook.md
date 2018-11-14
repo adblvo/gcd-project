@@ -1,18 +1,21 @@
+<pre>
 This file contains a list of data names and units in tidy.txt. Each data heading was taken the mean for each subject and activity combination.
 
 ## Identifiers  
 subject   
-* id, integer, range 1 to 30                                      
+* id, integer, range 1 to 30  
+  
 activity  
-* id, with 6 possible values
+* id, with 6 possible values  
+
 ### Activity Labels                                       
 WALKING               : subject walking  
-WALKING_UPSTAIRS      : subject walking upstairs
-WALKING_DOWNSTAIRS    : subject walking downstairs
+WALKING_UPSTAIRS      : subject walking upstairs  
+WALKING_DOWNSTAIRS    : subject walking downstairs  
 SITTING               : subject sitting  
 STANDING              : subject standing  
-LAYING                : subject laying down
-
+LAYING                : subject laying down  
+  
 ## Column Headings  
 Each heading is descritive to the data contained.   
 First id for domain:       time, frequency    
