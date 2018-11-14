@@ -1,22 +1,33 @@
-This file contains a list of data names and units in tidy.txt. The data was not modified, only the Headings expanded for easier. Averaged data per subject can be found in the variable tidy_data_mean.  
+This file contains a list of data names and units in tidy.txt. Each data heading was taken the mean for each subject and activity combination.
 
 ## Identifiers  
-subject                                         
+subject   
+* id, integer, range 1 to 30                                      
 activity  
+* id, with 6 possible values
 ### Activity Labels                                       
-WALKING  
-WALKING_UPSTAIRS  
-WALKING_DOWNSTAIRS  
-SITTING  
-STANDING  
-LAYING  
+WALKING               : subject walking  
+WALKING_UPSTAIRS      : subject walking upstairs
+WALKING_DOWNSTAIRS    : subject walking downstairs
+SITTING               : subject sitting  
+STANDING              : subject standing  
+LAYING                : subject laying down
 
 ## Column Headings  
+Each heading is descritive to the data contained.   
+First id for domain:       time, frequency    
+Second id for locaiton:    Body, Gravity  
+Third id for type:         Acceleration, Gyroscope  
+Fourth id for measurement: Mean,Std  
+Fifth id for direction:    X, Y, Z  
+
 ### Time Domain  
+These are raw sensor signals.  
+  
 timeBodyAccelerationMeanX                              
 timeBodyAccelerationMeanY                              
 timeBodyAccelerationMeanZ                              
-timeBodyAccelerationStdX
+timeBodyAccelerationStdX  
 timeBodyAccelerationStdY                               
 timeBodyAccelerationStdZ                               
 
@@ -64,6 +75,8 @@ timeBodyGyroscopeJerkMagnitudeMean
 timeBodyGyroscopeJerkMagnitudeStd                      
 
 ### Frequency Domain  
+These are time domain signals with an Fast Fourier Transform (FFT) taken.  
+  
 frequencyBodyAccelerationMeanX                         
 frequencyBodyAccelerationMeanY                         
 frequencyBodyAccelerationMeanZ                         

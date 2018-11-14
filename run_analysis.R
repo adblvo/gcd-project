@@ -55,12 +55,13 @@ if (file.exists(folder)){
     tidy_data$subject <- as.factor(tidy_data$subject)
     tidy_data$activity <- factor(tidy_data$activity, level = activity_labels[,1], labels = activity_labels[,2])
     
-    #write out tidy data set
-    write.table(tidy_data, "tidy.txt", row.names = FALSE, quote = FALSE)
-
     #make second data set with mean for each subject and activity
     # melt makes a new row for each row-column combination in the table
     tidy_data_melt <- melt(tidy_data, id = c("subject", "activity"))
     tidy_data_mean <- dcast(tidy_data_melt, subject + activity ~ variable, mean)
+    
+    #write out tidy data set
+    write.table(tidy_data_mean, "tidy.txt", row.names = FALSE, quote = FALSE)
+    
     
     }
