@@ -3,6 +3,7 @@ This file contains a list of data names and units in tidy.txt.
 Only data fields related to mean or standard deviation(std) were kept from the original data set.  
 Each data heading was taken with the mean for each subject and activity combination for tidy.txt.  
 The following were renamed;  
+
 | Original  |  Replacement   |    
 |-----------|----------------|   
 | '-std'    | 'Std'          |  
@@ -23,6 +24,7 @@ activity
 * id, with 6 possible values  
 
 ### Activity Labels                                       
+
 | WALKING            | subject walking            |  
 | WALKING_UPSTAIRS   | subject walking upstairs   |  
 | WALKING_DOWNSTAIRS | subject walking downstairs |   
