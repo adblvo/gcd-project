@@ -2,18 +2,18 @@ This file contains a list of data names and units in tidy.txt.
 ## Data Transformations
 Only data fields related to mean or standard deviation(std) were kept from the original data set.  
 Each data heading was taken with the mean for each subject and activity combination for tidy.txt.  
-The following were renamed;
-|  Original  |  Replacement   |    
-|------------|----------------|   
-|  '-std'    | 'Std'          |  
-| '-mean'    | 'Mean'         |  
-|  '[-()]'   | ''             |  
-|  '^t'      | 'time'         |  
-|  '^f'      | 'frequency'    |  
-|  'Freq'    | 'Frequency'    |  
-|  'Acc'     | 'Acceleration' |  
-|  'Mag'     | 'Magnitude'    |  
-|  'Gyro'    | 'Gyroscope'    |  
+The following were renamed;  
+| Original  |  Replacement   |    
+|-----------|----------------|   
+| '-std'    | 'Std'          |  
+| '-mean'   | 'Mean'         |  
+| '[-()]'   | ''             |  
+| '^t'      | 'time'         |  
+| '^f'      | 'frequency'    |  
+| 'Freq'    | 'Frequency'    |  
+| 'Acc'     | 'Acceleration' |  
+| 'Mag'     | 'Magnitude'    |  
+| 'Gyro'    | 'Gyroscope'    |  
 
 ## Identifiers  
 subject   
