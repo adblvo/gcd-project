@@ -36,12 +36,16 @@ activity
 Each heading is descritive to the data contained.   
 First id for domain:       
 * time, frequency    
+  
 Second id for locaiton:    
 * Body, Gravity  
+  
 Third id for type:  
 * Acceleration, Gyroscope, AccelerationJerk, GyroscopeJerk  
+  
 Fourth id for measurement:  
 * Mean, Std , Magnitude 
+  
 Fifth id for direction of measurement(optional):    
 * X, Y, Z  
 
