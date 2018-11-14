@@ -37,7 +37,7 @@ Each heading is descritive to the data contained.
 First id for domain:       
 * time, frequency    
   
-Second id for locaiton:    
+Second id for location:    
 * Body, Gravity  
   
 Third id for type:  
