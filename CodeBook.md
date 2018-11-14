@@ -23,8 +23,10 @@ subject
 activity  
 * id, with 6 possible values  
 
-### Activity Labels                                       
-
+### Activity Labels    
+                                     
+| Label              | Description                |  
+|--------------------|----------------------------|  
 | WALKING            | subject walking            |  
 | WALKING_UPSTAIRS   | subject walking upstairs   |  
 | WALKING_DOWNSTAIRS | subject walking downstairs |   
