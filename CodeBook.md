@@ -8,12 +8,11 @@ activity
 * id, with 6 possible values  
 
 ### Activity Labels                                       
-WALKING -------------- subject walking  
-WALKING_UPSTAIRS ----- subject walking upstairs  
-WALKING_DOWNSTAIRS --- subject walking downstairs  
-SITTING -------------- subject sitting  
-STANDING ------------- subject standing  
-LAYING --------------- subject laying down  
+| WALKING            | subject walking            |   |   |   |
+|--------------------|----------------------------|---|---|---|
+| WALKING_UPSTAIRS   | subject walking upstairs   |   |   |   |
+| WALKING_DOWNSTAIRS | subject walking downstairs |   |   |   |
+| SITTING            | subject sitting            |   |   |   | 
   
 ## Column Headings  
 Each heading is descritive to the data contained.   
